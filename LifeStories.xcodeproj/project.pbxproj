@@ -10,7 +10,6 @@
 		66C3003A4DAD06785E870C24 /* Pods_LifeStories_LifeStoriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E012E62DE45F210492B8E220 /* Pods_LifeStories_LifeStoriesUITests.framework */; };
 		727953996BA95CA973966E70 /* Pods_LifeStoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719BD0ECCF9136ECD1364697 /* Pods_LifeStoriesTests.framework */; };
 		DA3C64D82A0F1143009565A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C64D72A0F1143009565A7 /* AppDelegate.swift */; };
-		DA3C64DA2A0F1143009565A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C64D92A0F1143009565A7 /* SceneDelegate.swift */; };
 		DA3C64DC2A0F1143009565A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C64DB2A0F1143009565A7 /* ViewController.swift */; };
 		DA3C64DF2A0F1143009565A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3C64DD2A0F1143009565A7 /* Main.storyboard */; };
 		DA3C64E22A0F1143009565A7 /* LifeStories.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA3C64E02A0F1143009565A7 /* LifeStories.xcdatamodeld */; };
@@ -50,7 +49,6 @@
 		B78C1126C780ADB7770A2DCB /* Pods-LifeStories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeStories.debug.xcconfig"; path = "Target Support Files/Pods-LifeStories/Pods-LifeStories.debug.xcconfig"; sourceTree = "<group>"; };
 		DA3C64D42A0F1143009565A7 /* LifeStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3C64D72A0F1143009565A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA3C64D92A0F1143009565A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA3C64DB2A0F1143009565A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA3C64DE2A0F1143009565A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA3C64E12A0F1143009565A7 /* LifeStories.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LifeStories.xcdatamodel; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				69CCDB1C3FBD8149A7420112 /* Pods-LifeStoriesTests.debug.xcconfig */,
 				B2D9DAB546EC8BA78A5B2506 /* Pods-LifeStoriesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				DA3C64D72A0F1143009565A7 /* AppDelegate.swift */,
-				DA3C64D92A0F1143009565A7 /* SceneDelegate.swift */,
 				DA3C64DB2A0F1143009565A7 /* ViewController.swift */,
 				DA3C64DD2A0F1143009565A7 /* Main.storyboard */,
 				DA3C64E32A0F1144009565A7 /* Assets.xcassets */,
@@ -377,7 +373,6 @@
 				DA3C64DC2A0F1143009565A7 /* ViewController.swift in Sources */,
 				DA3C64E22A0F1143009565A7 /* LifeStories.xcdatamodeld in Sources */,
 				DA3C64D82A0F1143009565A7 /* AppDelegate.swift in Sources */,
-				DA3C64DA2A0F1143009565A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,6 @@
+framework module Pods_LifeStoriesTests {
+  umbrella header "Pods-LifeStoriesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
